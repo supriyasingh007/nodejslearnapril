@@ -5,7 +5,8 @@ import express from "express"; // module-type
 const app = express();
 
 const port = 4000;
-app.listen(port, () => console.log("server is listening..."))
+//server instanse
+app.listen(port, () => console.log(`server is listening port ${port}`))
 
 
 
